@@ -126,6 +126,21 @@ ul li a:hover{
     cursor: pointer;
     flex-wrap: wrap;
 }
+.education{
+    margin-top: 2rem;
+}
+.education h2{
+    margin-bottom: 2rem;
+    
+}
+.education ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list{
+    margin-bottom: 0.5rem;
+}
 .icon a{
     text-decoration: none;
     color: #000;
