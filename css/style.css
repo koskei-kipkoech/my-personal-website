@@ -129,6 +129,18 @@ ul li a:hover{
     flex-wrap: wrap;
     border: 10px solid black;
 }
+@media (min-width: 768px) {
+    .image-profile img {
+        width: 400px;
+    }
+}
+
+/* For smaller screens, reduce the image size */
+@media (max-width: 480px) {
+    .image-profile img {
+        width: 200px;
+    }
+}
 .education{
     margin-top: 1rem;
 }
@@ -401,6 +413,15 @@ my-projects h1{
 }*/
 .portfolio h2{
     margin-bottom: 4rem;
+    text-align: center;
+    color: darkslategray;
+    font-size: 50px;
+}
+.portfolio h2:hover{
+    color: rgb(230, 104, 59);
+    cursor: pointer;
+    text-shadow:0 0 25px rgb(230, 104, 59),
+                0 0 50px rgb(230, 104, 59); 
 }
 .portfolio-container{
     display: grid;
@@ -440,7 +461,7 @@ my-projects h1{
     transition: 0.3s ease;
 }
 .portfolio-box .portfolio-info:hover{
-    background: radial-gradient(rgba(0, 0, 0, 0.105), rgb(230, 104, 59));
+    background: radial-gradient(rgba(0, 0, 0, 0.105), rgba(5, 0, 0, 0.995));
     transform: scale(1.1);
 }
 .portfolio-info h4{
@@ -481,4 +502,18 @@ my-projects h1{
         gap: 1rem;
     }
 }
-
+@media screen and (max-width: 990px) {
+    .info {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    .info {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 1.5rem;
+    }
+}
