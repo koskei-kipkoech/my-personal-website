@@ -27,6 +27,9 @@ body {
     border-bottom: 2px solid #0f0e0e00;
     position: relative;
 }
+.navbar:hover{
+    border: 2px solid black;
+}
 .navbar .logo{
     width: 30px;
     height: 20px;
@@ -34,6 +37,7 @@ body {
     display: inline-block;
     object-fit: contain;
 }
+
 ul{
     margin-top: -4%;
 }
@@ -47,15 +51,17 @@ ul li a{
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
-    color: darkslategray;
+    color: purple;
     margin-top: -3%;
     transition: .4s ease;
 }
 ul li a:hover{
     color: rgb(230, 104, 59);
+    cursor: pointer;
     text-shadow:0 0 25px rgb(230, 104, 59),
                 0 0 50px rgb(230, 104, 59);
 }
+
 .info{
     margin-left: 10%;
     margin-top: 10%;
@@ -74,6 +80,7 @@ ul li a:hover{
 
 }
 .info-me h1:hover{
+    cursor: pointer;
     color: rgb(230, 104, 59);
     text-shadow:0 0 25px rgb(230, 104, 59),
                 0 0 50px rgb(230, 104, 59);
@@ -116,6 +123,7 @@ ul li a:hover{
 .image-profile img:hover{
     left: 55%;
     display: flex;
+    cursor: pointer;
     flex-wrap: wrap;
 }
 .icon a{
@@ -148,6 +156,7 @@ ul li a:hover{
 }
 .header h1:hover{
     color: rgb(230, 104, 59);
+    cursor: pointer;
     text-shadow:0 0 25px rgb(230, 104, 59),
                 0 0 50px rgb(230, 104, 59);
 }
@@ -210,6 +219,7 @@ ul li a:hover{
 }
 .skill-title h3:hover{
     color:rgb(99, 210, 230);
+    cursor: pointer;
     text-shadow:0 0 25px rgb(99, 210, 230),
                 0 0 50px rgb(99, 210, 230);
 }
@@ -280,6 +290,7 @@ ul li a:hover{
 }
 .contact-me:hover{
     color: rgb(230, 104, 59);
+    cursor: pointer;
     text-shadow:0 0 25px rgb(230, 104, 59),
                 0 0 50px rgb(230, 104, 59);    
 }
