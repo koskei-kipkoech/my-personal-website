@@ -488,14 +488,14 @@ my-projects h1{
     color: #ffffff;
 
 }
-@media screen and (max-width: 990px) {
+ @media screen and (max-width: 990px) {
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
     }
 }
 
-/* Single-column layout for screens smaller than 650px */
+Single-column layout for screens smaller than 650px 
 @media screen and (max-width: 650px) {
     .portfolio-container {
         grid-template-columns: 1fr;
