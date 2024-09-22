@@ -359,7 +359,7 @@ my-projects h1{
 
 }
 .portfolio{
-    background: var(--second-big-color);
+    background: #ffffff;
 }
 .portfolio h2{
     margin-bottom: 4rem;
@@ -374,14 +374,14 @@ my-projects h1{
 .portfolio-container .portfolio-box{
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
+    box-shadow: 0 0 1rem #222;
     overflow: hidden;
     display: flex; 
 }
 .portfolio-box img{
     width: 100%;
     object-fit: cover;
-    transition: 0.5sec ease;
+    transition: tranform 0.5sec ease;
 }
 .portfolio-box:hover img{
     transform: scale(1.1);
@@ -399,4 +399,35 @@ my-projects h1{
     text-align: center;
     padding: 0 4rem;
     cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.3s ease;
 }
+.portfolio-box .portfolio-info:hover{
+    background: radial-gradient(rgba(0, 0, 0, 0.105), rgb(230, 104, 59));
+    transform: scale(1.1);
+}
+.portfolio-info h4{
+    font-size: 2rem;
+    color: aquamarine;
+}
+.portfolio-info p{
+    font-size: 1.6rem;
+    margin: 0.3rem 0 1rem;
+    color: #ffffff;
+
+}
+.portfolio-info a{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: #000;
+    border-radius: 50%;
+}
+.portfolio-info a i{
+    font-size: 3rem;
+    color: #ffffff;
+
+}
+
